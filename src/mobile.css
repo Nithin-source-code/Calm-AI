@@ -1,0 +1,114 @@
+/* Calm AI — Mobile Responsive Styles */
+/* Import in index.html or main.jsx */
+
+/* Base resets for mobile */
+@media (max-width: 768px) {
+  /* Dashboard top bar */
+  .dash-topbar {
+    padding: 0.7rem 1rem !important;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Tab bar scrollable */
+  .dash-tabs {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .dash-tabs::-webkit-scrollbar { display: none; }
+
+  /* Content padding */
+  .tab-content {
+    padding: 1rem !important;
+  }
+
+  /* Ideas grid single column */
+  .ideas-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Onboarding right panel hidden */
+  .onboarding-preview {
+    display: none !important;
+  }
+
+  /* Scripts two-col → single col */
+  .scripts-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Captions two-col → single col */
+  .captions-layout {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Calendar single row scroll */
+  .calendar-grid {
+    grid-template-columns: repeat(7, minmax(130px, 1fr)) !important;
+    overflow-x: auto;
+  }
+
+  /* Modal full screen on mobile */
+  .modal-inner {
+    width: 100% !important;
+    max-width: 100% !important;
+    border-radius: 14px 14px 0 0 !important;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
+  /* Pricing grid */
+  .pricing-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Landing hero */
+  .hero-headline {
+    font-size: 48px !important;
+  }
+
+  /* Features strip */
+  .features-strip {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* How it works */
+  .how-grid {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+
+  /* Footer */
+  .landing-footer {
+    flex-direction: column !important;
+    gap: 16px !important;
+    text-align: center;
+  }
+
+  /* Nav */
+  .landing-nav {
+    padding: 1rem !important;
+  }
+  .landing-nav .nav-links {
+    gap: 12px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-headline {
+    font-size: 36px !important;
+  }
+
+  .features-strip {
+    grid-template-columns: 1fr !important;
+  }
+
+  .pricing-grid {
+    grid-template-columns: 1fr !important;
+  }
+}

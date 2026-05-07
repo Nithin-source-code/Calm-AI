@@ -1,0 +1,34 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="800" fill="#0A0A0A"/>
+
+  <!-- C arc -->
+  <path d="M 460,185 A 175,175 0 1,0 460,565"
+    fill="none" stroke="#F0EBE0" stroke-width="36" stroke-linecap="round"/>
+
+  <!-- Gold dot top -->
+  <circle cx="460" cy="185" r="22" fill="#C9A45A"/>
+
+  <!-- Gold dot bottom -->
+  <circle cx="460" cy="565" r="22" fill="#C9A45A"/>
+
+  <!-- Gold chevron < inside C -->
+  <polyline points="415,345 375,375 415,415"
+    fill="none" stroke="#C9A45A" stroke-width="10"
+    stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- CALM -->
+  <text x="400" y="655" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="72" fill="#F0EBE0" letter-spacing="18">CALM</text>
+
+  <!-- Left line -->
+  <line x1="175" y1="700" x2="335" y2="700" stroke="#C9A45A" stroke-width="1.5"/>
+
+  <!-- AI -->
+  <text x="400" y="715" text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="32" fill="#C9A45A" letter-spacing="14">AI</text>
+
+  <!-- Right line -->
+  <line x1="465" y1="700" x2="625" y2="700" stroke="#C9A45A" stroke-width="1.5"/>
+</svg>

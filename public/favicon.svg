@@ -1,0 +1,14 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#0A0A0A" rx="100"/>
+  <!-- C arc -->
+  <path d="M 318,82 A 174,174 0 1,0 318,430"
+    fill="none" stroke="#F0EBE0" stroke-width="46" stroke-linecap="round"/>
+  <!-- Gold dot top -->
+  <circle cx="318" cy="82" r="33" fill="#C9A45A"/>
+  <!-- Gold dot bottom -->
+  <circle cx="318" cy="430" r="33" fill="#C9A45A"/>
+  <!-- Gold chevron < -->
+  <polyline points="282,222 226,256 282,290"
+    fill="none" stroke="#C9A45A" stroke-width="18"
+    stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
